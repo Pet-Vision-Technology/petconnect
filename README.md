@@ -68,17 +68,17 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | ----------- | ------- | ----------- |
   | uid         | String  | unique id for registered user |
   | email       | String  | email provided for user registration |
-  | displayName | String  | user display name |
-  | fullName   | String  | user full name |
-  | age    | INT  | user age |
-  | isMale    | boolean  | user gender |
+  | displayName | String  | user display name  |
+  | fullName   | String  | user enter full name |
+  | age    | INT  | user enters age |
+  | isMale    | Boolean  | user chooses gender |
   | current_longitude   | String  | user current longitutde |
   | current_latitude   | String  | user current latitude |
   | status   | String  | user status |
-  | isOnline   | boolean  | is user online |
-  | profileImageUrl   | String  | user profile image url |
+  | isOnline   | Boolean  | is user online |
+  | profileImageUrl   | Image  | user profile image url |
   | latest   | String  | user latest location |
-  | online   | boolean  | is user online |
+  | online   | Boolean  | is user online |
   | typing   | String  | is user typing |
   
 #### newMatch
@@ -102,15 +102,17 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | createdAt   | DateTime      | date when post was created |
   | updatedAt   | DateTime      | date when post was last updated |
   
-#### Chat
+#### Inbox
 
   | Property    | Type                     | Description |
   | ----------- | -------------            | ----------- |
   | objectId    | String                   | unique id of chat session |
   | createdAt   | DateTime                 | date when chat session was created |
   | messages    | Array of Message objects | list of messages exchanged between the users in the chat session |
-  | user1       | Point to user            | first of two users in this chat session |
-  | user2       | Point to user            | second user in chat session |
+  | from       | String           | unique user id sending message |
+  | to       | String           | unique user id receiving message |
+  | read       | Boolean           | if user read meassage |
+  | date     | DateTime           | Time messgae was sent |
   
 #### Message
 
