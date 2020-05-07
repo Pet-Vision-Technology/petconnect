@@ -75,11 +75,11 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | current_longitude   | String  | user current longitutde |
   | current_latitude   | String  | user current latitude |
   | status   | String  | user status |
-  | isOnline   | boolean  | user last name |
+  | isOnline   | boolean  | is user online |
   | profileImageUrl   | String  | user profile image url |
-  | latest   | String  | user location |
-  | online   | boolean  | user online |
-  | typing   | String  | user typing |
+  | latest   | String  | user latest location |
+  | online   | boolean  | is user online |
+  | typing   | String  | is user typing |
   
 #### newMatch
 
