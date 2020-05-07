@@ -90,18 +90,7 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | matchedUser | Point to user | user that swiped right |
   | matchedAt   | DateTime      | date when users were matched |
   | isMatched   | Boolean       | if the users are still matched or not |
-  
-#### Post
-
-  | Property    | Type          | Description |
-  | ----------- | ------------- | ----------- |
-  | objectId    | String        | unique id of post |
-  | creator     | Point to user | post creator |
-  | image       | File          | image of pet |
-  | caption     | String        | caption of post |
-  | createdAt   | DateTime      | date when post was created |
-  | updatedAt   | DateTime      | date when post was last updated |
-  
+    
 #### Inbox
 
   | Property    | Type                     | Description |
@@ -175,4 +164,10 @@ Users are now able to chat with each other. This will change once we implement t
 [Photo library message](https://cs-2355-gifs.s3-us-west-1.amazonaws.com/Apr-29-2020+23-13-35.gif)
 
 Users are also able to take photo and video messages with their device.
+
+## Milestone Deliverables #4 - Final
+Our final product is an application where you can message other users, users you are matched with, and can view nearby users that you can have your pet connect with. We also implemented a Tinder-like swipe feature that allows you to match with other pet owners and breeders.
+
+### Progress Walkthrough
+Please click the [link](https://cs-2355-gifs.s3-us-west-1.amazonaws.com/RPReplay_Final1588824725.mp4) to view a walkthrough of our application.
 
