@@ -126,6 +126,15 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | author      | Point to user | author of message |
   
   
+#### Action
+
+  | Property    | Type          | Description |
+  | ----------- | ------------- | ----------- |
+  | newMatch    | Boolean        | users both liked |
+  | trackSwipe   | String    | track user liked swipes |
+
+  
+  
 ## Networking
 ### List of network requests by screen
 
