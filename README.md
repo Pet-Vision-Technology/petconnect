@@ -69,10 +69,19 @@ Anonymously lets users swipe in hopes of finding a mutual connection for their p
   | uid         | String  | unique id for registered user |
   | email       | String  | email provided for user registration |
   | displayName | String  | user display name |
-  | firstName   | String  | user first name |
-  | lastName    | String  | user last name |
+  | fullName   | String  | user full name |
+  | age    | INT  | user age |
+  | isMale    | boolean  | user gender |
+  | current_longitude   | String  | user current longitutde |
+  | current_latitude   | String  | user current latitude |
+  | status   | String  | user status |
+  | isOnline   | boolean  | user last name |
+  | profileImageUrl   | String  | user profile image url |
+  | latest   | String  | user location |
+  | online   | boolean  | user online |
+  | typing   | String  | user typing |
   
-#### Match
+#### newMatch
 
   | Property    | Type          | Description |
   | ----------- | ------------- | ----------- |
